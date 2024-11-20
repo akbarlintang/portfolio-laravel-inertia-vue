@@ -1,0 +1,178 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#banner-name {
+    font-size: 64px;
+}
+
+#banner-subname {
+    font-size: 64px;
+    color: #B0B7C0;
+}
+
+.work-card {
+    background-color: #353c42;
+    width: 100%;
+    max-width: 400px;
+}
+
+.work-card-img-container {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.work-card-img {
+    height: 100px;
+    width: auto;
+}
+
+.project-card {
+    background-color: #353c42;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #353c42;
+}
+
+.social-buttons {
+    list-style: none;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    background-color: #252930;
+}
+
+.tech-stack-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.5rem;
+    background-color: #353c42; /* Set the background color */
+}
+
+.project-name {
+    width: 300px; /* Set a fixed width for the container */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Display "..." for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
+.section-break {
+    margin-top: 5em;
+}
+
+#typed-element {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.typed-cursor {
+    font-size: 1.75rem;
+}
+
+.tech-stack-svg {
+    height: 40px;
+    max-width: 125px;
+    max-height: 40px;
+}
+
+.tech-stack-container {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.custom-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.introduction {
+    word-spacing: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.icon-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 576px) {
+    .tech-stack-svg {
+        height: 80px;
+        max-width: 250px;
+        max-height: 80px;
+    }
+
+    .project-name {
+        width: 500px; /* Set a fixed width for the container */
+        overflow: hidden;
+        text-overflow: ellipsis; /* Display "..." for overflow text */
+        white-space: nowrap; /* Prevent text from wrapping to the next line */
+    }
+
+    .introduction {
+        font-size: 1.5rem;
+    }
+
+    .work-card {
+        max-width: 680px;
+    }
+
+    .work-card-img {
+        height: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #banner-name {
+        font-size: 120px;
+    }
+
+    #banner-subname {
+        font-size: 120px;
+        color: #B0B7C0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #banner-name {
+        font-size: 120px;
+    }
+
+    #banner-subname {
+        font-size: 120px;
+        color: #B0B7C0;
+    }
+}
