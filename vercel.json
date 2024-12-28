@@ -31,9 +31,5 @@
         "SESSION_DRIVER": "cookie",
 
         "ASSET_URL":"https://portfolio-laravel-inertia-vue.vercel.app"
-    },
-    "builds": [{
-        "src": "public/build/**/*",
-        "use": "@vercel/static"
-    }]
+    }
 }
