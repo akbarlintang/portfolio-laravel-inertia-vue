@@ -22,5 +22,8 @@ export default defineConfig({
             ziggy: 'resources/js/ziggy.js',
         },
     },
-    base: process.env.ASSET_URL,
+    base: process.env.ASSET_URL || '/',
+    build: {
+        outDir: 'public/build',
+    },
 });
